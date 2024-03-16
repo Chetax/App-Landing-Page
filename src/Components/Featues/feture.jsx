@@ -7,7 +7,7 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function Feat({ features, description, img }) {
   return (
-    <Card sx={{ maxWidth: 255, textAlign: "center" }} >
+    <Card sx={{ maxWidth: 255,minWidth:100, textAlign: "center" }} >
       <CardActionArea sx={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
         <CardMedia
           component="img"

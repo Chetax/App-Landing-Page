@@ -31,7 +31,7 @@ function Features() {
 
     </Box>
 
-    <Box sx={{ ml: 20,pb:15, mr: 10, '@media (max-width: 600px)': {} }}>
+    <Box sx={{ ml: 20,pb:15, mr: 10, '@media (max-width: 473px)': {mr:15} }}>
   <Grid container spacing={2}>
     {Allfeature.map((feature, index) => (
       <Grid  item xs={12} lg={3.5} sm={6} md={5} xl={3} key={feature}>

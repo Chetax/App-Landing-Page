@@ -1,4 +1,4 @@
-import { Box, Button, Container, Grid } from "@mui/material";
+import { Box, Button, Grid } from "@mui/material";
 import homeimg from './HomeBg.jpg';
 
 
@@ -27,7 +27,7 @@ function Home() {
       <Grid container spacing={2} sx={{mt:5 }}  >
             <Grid item xs={2.5 }></Grid>
   
-        <Grid item xs={7} textAlign={"center"}  >
+        <Grid item xs={12}  textAlign={"center"}  >
      
         <Button   sx={{border:"3px solid violet",mr:6, bgcolor:"white", color:"white",":hover":{bgcolor:"violet"}}}  > <i  class="fa-brands fa-google-play" style={{color:"black",marginRight:"5px"}}></i> <span style={{color:"black"}}> Play Store</span> </Button>
         <Button   sx={{border:"3px solid violet",bgcolor:"white", color:"white",":hover":{bgcolor:"violet"}}}  > <i  class="fa-brands fa-apple" style={{color:"black",marginRight:"5px"}}></i> <span style={{color:"black"}}> App Store</span> </Button>
