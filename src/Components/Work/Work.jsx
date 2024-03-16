@@ -24,7 +24,7 @@ const images=[img1,img2,img3];
         <Grid container spacing={2} sx={{pb:"25px",mt:"5"}}>
             <Grid item xs={3 }></Grid>
         <Grid item xs={6} textAlign={"center"} >
-    <span style={{fontSize:"19px",color:"white"}}> Welcome to MedVault: Simplifying Medical Record Management.Empower Yourself with Secure, Easy Record Access & Management.
+    <span style={{fontSize:"19px",color:"white"}}> Unlock Your Health Potential with Rugnarath: Register, Set Up Your Profile, Thrive!
 </span>
   </Grid>
   <Grid item xs={2}></Grid>
@@ -33,15 +33,16 @@ const images=[img1,img2,img3];
      
 
         </Box>
-        <Box sx={{ ml: 20,pb:15, mr: 10, '@media (max-width: 600px)': {} }}>
-  <Grid container spacing={2}>
+        <Box sx={{ pb: 15, paddingLeft: "15%", paddingRight: "15%" ,'@media (max-width:600px)': { paddingLeft: "27%" ,paddingRight:10 } }}>
+  <Grid container spacing={2} justifyContent="center">
     {Title.map((feature, index) => (
       <Grid item xs={12} lg={3.5} sm={6} md={5} xl={4} key={feature}>
-   <Feat features={feature} description={decription[index]} img={images[index]} color="white"/>
-   </Grid>
+        <Feat features={feature} description={decription[index]} img={images[index]} color="white"/>
+      </Grid>
     ))}
   </Grid>
 </Box>
+
         </Box>
        
     </>  );
